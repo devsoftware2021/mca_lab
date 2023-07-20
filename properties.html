@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h3>Hello User</h3>
+	<p id="msg">Sample Message</p>
+
+	<span id="msg1"> Welcome Message</span>
+	<button onclick="changeData()">Change</button>
+
+	<form>
+		<label>Name</label>
+		<input type="text" name="name" value="MCA" id="fname">
+		
+	</form>
+	<button onclick="displayData()">Display</button>
+
+	<script type="text/javascript">
+	document.getElementById('msg').innerHTML = "New message";
+
+	function changeData(){
+		alert("Value change");
+		document.getElementById('msg1').innerHTML = "New Welcome Message";
+		document.getElementById('msg1').style.color = 'green';
+	}
+
+	function displayData(){
+		let name_val = document.getElementById('fname').value;
+		let name_val1 = fname.value;
+		alert(name_val);
+		alert(name_val1);
+	}
+</script>
+</body>
+</html>
+

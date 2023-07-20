@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script type="text/javascript">
+		function show(sum){
+			document.write("The sum is "+ sum);
+		}
+
+		function add(a,b, fun_name){
+			let total = a+b;
+			fun_name(total);
+		}
+
+		setTimeout(check, 5000);
+		function check(){
+			document.write("Timeout check");
+		}
+		
+	</script>
+
+	<p onclick="add(2,3,show)">Check total</p>
+</body>
+</html>

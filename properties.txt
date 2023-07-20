@@ -1,0 +1,8 @@
+element.innerHTML = new content
+
+	document.getElementById('id_val').innerHTML = "Hello";
+	
+
+element.attribute = new attribute value
+	
+element.style.property = new style
